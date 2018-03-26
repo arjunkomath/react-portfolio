@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 40px;
+}
+p {
+    font-size: 18px;
+}
+h4 {
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.App {
+    padding: 50px 100px;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        margin-left: 10px;
+    }
+    .App {
+        padding: 5px 10px;
+    }
+    .content {
+        background: #f9f9f9;
+        height: 100%;
+        padding: 10px;
+    }
+    .tagline {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
+
+.tagline {
+    margin-bottom: 40px;
+}
+
+.content {
+    background: #f9f9f9;
+    height: 100%;
+    padding: 40px;
+}
+
+.buttons {
+    text-align: left;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
